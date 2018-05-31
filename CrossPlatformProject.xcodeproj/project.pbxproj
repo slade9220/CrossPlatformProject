@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5F257B5620BEE487003BEC2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F257B5520BEE487003BEC2C /* AppDelegate.swift */; };
-		5F257B5820BEE487003BEC2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F257B5720BEE487003BEC2C /* ViewController.swift */; };
 		5F257B5B20BEE487003BEC2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F257B5920BEE487003BEC2C /* Main.storyboard */; };
 		5F257B5D20BEE489003BEC2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F257B5C20BEE489003BEC2C /* Assets.xcassets */; };
 		5F257B6020BEE489003BEC2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F257B5E20BEE489003BEC2C /* LaunchScreen.storyboard */; };
+		5F257B6820BEE593003BEC2C /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F257B6720BEE593003BEC2C /* DeviceTableViewCell.swift */; };
+		5F257B6A20BEE66F003BEC2C /* DeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F257B6920BEE66F003BEC2C /* DeviceTableViewController.swift */; };
+		5F257B6C20BEE6BD003BEC2C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F257B6B20BEE6BD003BEC2C /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F257B5220BEE487003BEC2C /* CrossPlatformProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossPlatformProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F257B5520BEE487003BEC2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F257B5720BEE487003BEC2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F257B5A20BEE487003BEC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F257B5C20BEE489003BEC2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F257B5F20BEE489003BEC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F257B6120BEE489003BEC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F257B6720BEE593003BEC2C /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		5F257B6920BEE66F003BEC2C /* DeviceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewController.swift; sourceTree = "<group>"; };
+		5F257B6B20BEE6BD003BEC2C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				5F257B5520BEE487003BEC2C /* AppDelegate.swift */,
-				5F257B5720BEE487003BEC2C /* ViewController.swift */,
+				5F257B6720BEE593003BEC2C /* DeviceTableViewCell.swift */,
+				5F257B6920BEE66F003BEC2C /* DeviceTableViewController.swift */,
+				5F257B6B20BEE6BD003BEC2C /* Device.swift */,
 				5F257B5920BEE487003BEC2C /* Main.storyboard */,
 				5F257B5C20BEE489003BEC2C /* Assets.xcassets */,
 				5F257B5E20BEE489003BEC2C /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F257B5820BEE487003BEC2C /* ViewController.swift in Sources */,
+				5F257B6A20BEE66F003BEC2C /* DeviceTableViewController.swift in Sources */,
+				5F257B6820BEE593003BEC2C /* DeviceTableViewCell.swift in Sources */,
 				5F257B5620BEE487003BEC2C /* AppDelegate.swift in Sources */,
+				5F257B6C20BEE6BD003BEC2C /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
