@@ -34,7 +34,7 @@ struct Device: Codable {
 
 func loadDevice()->[Device] {
     var devices : [Device] = []
-    let jsonUrl = "https://www.gennaroamura.it/croosplatform/query/getDevice.php"
+    let jsonUrl = "https://www.gennaroamura.it/crossplatform/query/getDevice.php"
     
     guard let url = URL(string: jsonUrl) else { return devices }
     let request: URLRequest = URLRequest(url: url)

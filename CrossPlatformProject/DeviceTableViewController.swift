@@ -14,10 +14,10 @@ class DeviceTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor(red:0.11, green:0.11, blue:0.11, alpha:1.0)
         devices = loadDevice()
-        print("Devices:",devices)
-
+        self.tableView.separatorColor = UIColor.clear
+        
     }
 
     // MARK: - Table view data source
@@ -42,10 +42,14 @@ class DeviceTableViewController: UITableViewController {
         }
         
         cell.label.text = "\(devices[indexPath.row].brand) \(devices[indexPath.row].name)"
+        cell.label.textColor = UIColor.white
         
-
         return cell
     }
-
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.contentView.backgroundColor = UIColor(red:0.11, green:0.11, blue:0.11, alpha:1.0)
+        cell.selectionStyle = .none
+    }
 
 }
